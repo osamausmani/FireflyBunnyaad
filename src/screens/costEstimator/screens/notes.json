@@ -1,0 +1,26 @@
+[
+    { "index" : 1 , "notes" : "Strip Foundation is considered standard on all grey structure BOQs. (Main and Distribution bars are placed on 6” C/C)"},
+    { "index" : 2 , "notes" : "4 feet excavation for without basement and with basement 10 feet excavation has been taken as standard from the road level."},
+    { "index" : 3 , "notes" : "Finish-floor level of the house is considered to be 2.5 feet above the road level."},
+    { "index" : 4 , "notes" : "Car Porch level is 1 feet above the road level."},
+    { "index" : 5 , "notes" : "Measurement of the covered area of the all floor plans has been taken from shade to shade as per normal practice."},
+    { "index" : 6 , "notes" : "Electrical Conducting is calculated on 13 Feet pipe length as per standards."},
+    { "index" : 7 , "notes" : "PPR and UPVC pipes were calculated on 13 Feet pipe length as per standards."},
+    { "index" : 8 , "notes" : "Quantities of Sand, Crush, and Gherra (Engineering Backfill) are calculated as per dumper which is equal to 800 Cft for easy understanding."},
+    { "index" : 9 , "notes" : "The above-calculated cost and quantities of materials are as per civil engineering standards."},
+    { "index" : 10 , "notes" : "If the plot is on filling land or on loose strata/loose bearing capacity then the foundation plan will be revised along with quantities of material and cost estimates."},
+    { "index" : 11 , "notes" : "The rates considered in this calculation are for Islamabad and Rawalpindi only."},
+    { "index" : 12 , "notes" : "Given grey Structure material quantities are with on-site wastage of materials (Cement 3.5%, Sand Plaster 12%, Sand for brick work and concrete 12%, Bricks 3%, Crush 8% and Steel with 5%)."},
+    { "index" : 13 , "notes" : "Plaster quantities are taken from all outer sides in General, Left side and right side corner grey structure BOQ’s."},
+    { "index" : 14 , "notes" : "Steel #3, #4 and #6 in foundation, columns, slabs, lintel beams and structural beams are calculated through bar bending schedule."},
+    { "index" : 15 , "notes" : "Lintel band (Lintel beam above windows and Doors) are taken as standard in all grey structure BOQ’s."},
+    { "index" : 16 , "notes" : "Plinth beam and lintel beam sizes are 9” x 12” as standard."},
+    { "index" : 17 , "notes" : "6 inches thick slab is taken as standard on all grey structure BOQ’s."},
+    { "index" : 18 , "notes" : "Boundary wall quantity is taken from the foundation level and plinth beam on top of boundary walls as standard on all gray structure BOQs."},
+    { "index" : 19 , "notes" : "Slab steel spacing in slab for Main bars 6” C/C, distribution bars 6” C/C, and extra bars 8” C/C as constant."},
+    { "index" : 20 , "notes" : "Termite proofing Spray, waterproofing chemicals/Membranes and any other construction chemicals cost are not considered in the gray structure BOQ."},
+    { "index" : 21 , "notes" : "The above material quantities are calculated by qualified civil engineers."},
+    { "index" : 22 , "notes" : "Chaugat (Door Frames) thickness may vary from wall to wall."}
+
+
+]

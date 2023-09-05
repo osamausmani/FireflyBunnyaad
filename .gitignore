@@ -1,0 +1,6 @@
+# Ignore Node.js dependencies
+/node_modules
+
+# Ignore Android build artifacts
+/android/build
+/android/app/build

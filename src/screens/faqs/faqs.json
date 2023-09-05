@@ -1,0 +1,612 @@
+{
+  "title": "What are the main factors you have to check before plot buying to design to map approvals till construction of your house?",
+  "steps": [
+    {
+      "title": "STEP-1 (PLOT BUYING GUIDE)",
+      "description": [
+        "First step is to check if your plot is on an approved LOP from the competent authority.",
+        "Second step is to check if your plot is not on filling land...",
+        "Third step is to check if the society provides design services...",
+        "Fourth step is to check the map approval charges and required documents...",
+        "Fifth step is to check if the society allows water boring...",
+        "Sixth step is to check the fees for utility connections..."
+      ],
+      "faqs": [
+        {
+          "question": "How to check if your plot is located in an approved LOP and in an approved area by the government body?",
+          "answer": "Go to our LOP section on our app, type your society name and find your plot in the approved LOP map or you can visit the Government body office for the verification of the plot."
+        },
+        {
+          "question": "How to find out if your selected plot is on filling land or has loose bearing capacity?",
+          "answer": "Before buying you can take permission from the owner for conducting soil test if owner doesn’t allow you then consult with local soil testing companies which are practicing in those area, they will provide you valuable information regarding bearing capacities."
+        },
+        {
+          "question": "What happens if you buy a plot with loose bearing capacity and does this affect your construction cost?",
+          "answer": "If you buy plot with loose bearing capacity, your structural design will be rich in steel for gaining stability as per engineering standards and normally structure engineer recommends piling and raft foundation for this type of loose soil. Yes it will affect and increase your construction cost by 20 to 30 % as per normal."
+        }
+      ]
+    },
+    {
+      "title": "STEP-2 (SOIL TESTING)",
+      "description": [
+        "You can select from societies approved soil testing company panel list or you can get a soil testing companies list from our app as well...",
+        "Don’t go for the manual soil testing procedure because the manual procedure will not always provide satisfactory results...",
+        "For a 5-10 marla house, it is recommended to conduct soil tests through two boreholes...",
+        "For a 10-20 marla house, it is recommended to conduct soil tests through four boreholes...",
+        "Keep your soil test reports with you as they will help in the design of the structure drawings of your house..."
+      ],
+      "faqs": [
+        {
+          "question": "What is the difference between manual soil testing procedure and borehole drilling?",
+          "answer": "The manual soil testing procedure doesn't go deep like 15 to 20 feet, so it is not suitable for analyzing bearing capacity..."
+        },
+        {
+          "question": "How many boreholes are required for a 3-5 Marla house and what is the expense?",
+          "answer": "Two boreholes are enough for a 3-5 Marla house..."
+        },
+        {
+          "question": "How many boreholes are required for a 10-20 Marla house and what is the expense?",
+          "answer": "Four boreholes are enough for a 10-20 Marla house..."
+        },
+        {
+          "question": "How can you read soil test reports and their conclusions?",
+          "answer": "If your plot's bearing capacity is around 1.0 Ton/sft, you can go for a normal foundation..."
+        },
+        {
+          "question": "When do you need soil test reports?",
+          "answer": "You need soil test reports when consulting with your structural engineer..."
+        },
+        {
+          "question": "What are the main factors to consider when hiring a geotechnical firm for soil testing?",
+          "answer": "Ensure that the company is practicing with a valid license and approved by the PEC (Pakistan Engineering Council)..."
+        }
+      ]
+    },
+
+
+    {
+      "title": "STEP-3 (Drawings preparation procedure)",
+      "description": [
+        "Finalize the architect or structural engineer which is approved by the government body/competent authority. It will be help you in get stamped drawings from them which are compulsory for getting approvals.",
+        "Drawings required from the architect and structural engineer for getting approvals and starting construction:",
+        "Submission Drawings with sign and stamped by both architect and structure engineer (This set of submission is for getting approvals and submit in the competent authority)",
+        "Working drawings of Architectural, Structural, Electrical and Plumbing (This required set is for construction of your house)",
+        "BOQ/Cost estimation for grey structure and Finishing"
+      ],
+      "faqs": [
+        {
+          "question": "Difference between submission drawings and working drawings?",
+          "answer": "Submission Drawings: Submission drawings hold information of your plot location, key plan and some structural information and this drawing is prepared for the submission in the society and government body for getting approvals.\nWorking Drawings: Working drawings holds each precise details regarding construction like window and door schedules, steel layout plan, electrical points with their routing and plumbing points and routes. It also helps your contractor during construction."
+        },
+        {
+          "question": "What is BOQ? What its importance?",
+          "answer": "BOQ stands for Bill of quantities. BOQ hold information of each and every material details/specifications, quantities and costing which are using in your house project. This will be help you in budgeting your construction, you can add and subtract or replace material as per your budget. It also helps you in buying construction material or getting quotation from material vendors."
+        },
+        {
+          "question": "What is MEP drawings and its importance while constructing your house?",
+          "answer": " MEP stands for (Mechanical, Electrical and Plumbing) drawings. Mechanical drawings hold information about heating, ventilating, air conditioning and transportation around the building (Elevators or Lifts and Escalator). Whereas electrical drawings tells you about location or placement of lights, switches, power points etc. Plumbing drawings helps you in routing of water supply line (PPR), Sewerage routes (UPVC) and gas lines with their locations."
+        },
+        {
+          "question": "What are the 10 factors should be follow while designing of your house?",
+          "answer": "10 factors should be considered while designing and constructing are mentioned below:"
+        },
+        {
+          "question": "How many square feet in 1 Marla as per RDA By-Laws?",
+          "answer": "272 Sft are in 1 Marla as per RDA laws"
+        },
+        {
+          "question": "What is covered area and how can you calculate your covered area of your house?",
+          "answer": "Thumb rule for calculating covered is to multiply length into width of your roof shade to shade and also multiply by how many roofs your floor plan have. E.g. If you want to calculate double story house covered area:\nArea of Ground Floor roof + Area of First Floor roof + Area of Mumty roof = Total Covered area of your house"
+        },
+        {
+          "question": "Is hiring of an engineer/architect will increase your house construction budget?",
+          "answer": "Although most people find engineer/architect expensive while budgeting but engineer/architect helps you in cut down useless expenses during construction/designing and miscellanies over heads which cannot be controlled by a layman. Engineer will also help you in buying right material or getting quotation from the right vendors so you can spend your money on the right way. They also helps you in the management and timeline so you can get your house in the right time without any useless delays. The answer is no if you are considering these all factors mentioned above."
+        },
+        {
+          "question": "Can you construct house without working drawings, on just floor plan?",
+          "answer": "Yes a person can build house without drawings but there are some factors which can affect like structure stability assurance, minor details like floor level, sill height, electrical routing and plumbing routes. It also prevents leakage in budget because work is not proper planned or managed through proper management."
+        },
+        {
+          "question": "What are the by-laws of RDA and CDA while constructing house and what are the setbacks keep in mind while designing of floor plans?",
+          "RDA_Bylaws": [
+            {
+              "Plot_Size": "Less than 5-Marla",
+              "Building_Line": "5 ft",
+              "Rear_Space": "5 ft",
+              "Side_Space": "Not required"
+            },
+            {
+              "Plot_Size": "5 Marla & above but less than 10 Marla",
+              "Building_Line": "5 ft",
+              "Rear_Space": "5 ft",
+              "Side_Space": "Not required"
+            },
+            {
+              "Plot_Size": "10 Marla to 30 Marla",
+              "Building_Line": "10 ft",
+              "Rear_Space": "7 ft",
+              "Side_Space": "5 ft"
+            },
+            {
+              "Plot_Size": "Above 30 Marla but less than 2 Kanal",
+              "Building_Line": "10 ft",
+              "Rear_Space": "7 ft",
+              "Side_Space": "5 ft"
+            },
+            {
+              "Plot_Size": "2 Kanal & above",
+              "Building_Line": "20 ft",
+              "Rear_Space": "10 ft",
+              "Side_Space": "5 ft"
+            }
+
+          ],
+          "CDA_Bylaws": [
+            {
+              "Plot_Size": "Upto 5 Marla",
+              "Building_Line": "5 ft",
+              "Rear_Space": "5 ft",
+              "Side_1": "Nil",
+              "Side_2": "Nil",
+              "Mumty_Area": "200 Sft",
+              "Bsmt": "Allowed after leaving the setbacks"
+            },
+            {
+              "Plot_Size": "Upto 10 Marla",
+              "Building_Line": "8 ft",
+              "Rear_Space": "8 ft",
+              "Side_1": "5 ft",
+              "Side_2": "Nil",
+              "Mumty_Area": "350 Sft",
+              "Bsmt": "Allowed after leaving the setbacks"
+            },
+            {
+              "Plot_Size": "Upto 15 Marla",
+              "Building_Line": "10 ft",
+              "Rear_Space": "8 ft",
+              "Side_1": "5 ft",
+              "Side_2": "Nil",
+              "Mumty_Area": "350 Sft",
+              "Bsmt": "Allowed after leaving the setbacks"
+            },
+            {
+              "Plot_Size": "Upto 1 Kanal",
+              "Building_Line": "10 ft",
+              "Rear_Space": "8 ft",
+              "Side_1": "5 ft",
+              "Side_2": "5 ft",
+              "Mumty_Area": "400 Sft",
+              "Bsmt": "Allowed after leaving the setbacks"
+            },
+            {
+              "Plot_Size": "More than 1 Kanal  ",
+              "Building_Line": "15 ft",
+              "Rear_Space": "10 ft",
+              "Side_1": "5 ft",
+              "Side_2": "10 ft",
+              "Mumty_Area": "400 Sft",
+              "Bsmt": "Allowed after leaving the setbacks"
+            }
+          ]
+        },
+        {
+          "question": "What is Rain Harvesting Water Tank and its importance and why this is compulsory in RDA and CDA jurisdiction?",
+          "answer": "Rainwater is one of the purest sources of water available as it contains very low impurities. Harvesting rainwater is an ancient practice and you might have think that why are we practicing it. Because, till today this valuable practice in growing in popularity due to its various benefits in our modern times. Rainwater harvesting (RWH) is the most acceptable and sustainable method/solution to attenuate water crisis issues in the both rural and urban areas all over the world. The system involves simple collection and storing of rainwater from surfaces it falls so that it can be used for later use (domestic, commercial or agriculture purposes). The capacity of the water storage tank would be 200 gallons for 5-marla house, 400 gallons for 10-marla house, 600 gallons for 1-kanal house, and 800 gallons for 2-kanal house as per government by-laws (CDA & RDA)."
+        }
+      ]
+    },
+
+
+    {
+      "title": "STEP-4 (GETTING APPROVALS)",
+      "description": [
+        "First you have to collect NOC from society after presenting you’re drawing plans and paying their scrutiny fees (if applicable depends on society’s policies).",
+        "Documents required before submitting in government body before approvals:\nOwner CNIC (Attested)\nAllotment/ Transfer Letter (Society Attested Copy)\nPossession Letter (Society Attested Copy)\nNOC from Society (Original)\nMortgage Release Letter if applicable\nSub-Division letter (In case the plot was sub-divided by the RDA)\nBR-Form 1,3,4,6,10,11 and 17 (attached in RDA building regulations)\nUndertaking for damages on Rs 1000/- Stamp paper (BR-5)\nProposed Building plans (4 Ammonia Print, 2 Cloth amounted) Stamped by registered Architect.\nCertificate from structure engineer (RDA Registered)",
+        "After submission standard time will be taken by the government body for the map approval.",
+        "After getting map approval government body will handover you map copy of society which you have to submit in societies office, one copy is for applicant and NOC letter for construction"
+      ],
+      "faqs": [
+        {
+          "question": " What are the by-laws for design and construct your house in the approved housing schemes of RDA and CDA sectors?",
+          "RDA_Bylaws": [
+            {
+              "Plot_Size": "Less than 5-Marla",
+              "Building_Line": "5 ft",
+              "Rear_Space": "5 ft",
+              "Side_Space": "Not required"
+            },
+            {
+              "Plot_Size": "5 Marla & above but less than 10 Marla",
+              "Building_Line": "5 ft",
+              "Rear_Space": "5 ft",
+              "Side_Space": "Not required"
+            },
+            {
+              "Plot_Size": "10 Marla to 30 Marla",
+              "Building_Line": "10 ft",
+              "Rear_Space": "7 ft",
+              "Side_Space": "5 ft"
+            },
+            {
+              "Plot_Size": "Above 30 Marla but less than 2 Kanal",
+              "Building_Line": "10 ft",
+              "Rear_Space": "7 ft",
+              "Side_Space": "5 ft"
+            },
+            {
+              "Plot_Size": "2 Kanal & above",
+              "Building_Line": "20 ft",
+              "Rear_Space": "10 ft",
+              "Side_Space": "5 ft"
+            }
+
+          ],
+          "CDA_Bylaws": [
+            {
+              "Plot_Size": "Upto 5 Marla",
+              "Building_Line": "5 ft",
+              "Rear_Space": "5 ft",
+              "Side_1": "Nil",
+              "Side_2": "Nil",
+              "Mumty_Area": "200 Sft",
+              "Bsmt": "Allowed after leaving the setbacks"
+            },
+            {
+              "Plot_Size": "Upto 10 Marla",
+              "Building_Line": "8 ft",
+              "Rear_Space": "8 ft",
+              "Side_1": "5 ft",
+              "Side_2": "Nil",
+              "Mumty_Area": "350 Sft",
+              "Bsmt": "Allowed after leaving the setbacks"
+            },
+            {
+              "Plot_Size": "Upto 15 Marla",
+              "Building_Line": "10 ft",
+              "Rear_Space": "8 ft",
+              "Side_1": "5 ft",
+              "Side_2": "Nil",
+              "Mumty_Area": "350 Sft",
+              "Bsmt": "Allowed after leaving the setbacks"
+            },
+            {
+              "Plot_Size": "Upto 1 Kanal",
+              "Building_Line": "10 ft",
+              "Rear_Space": "8 ft",
+              "Side_1": "5 ft",
+              "Side_2": "5 ft",
+              "Mumty_Area": "400 Sft",
+              "Bsmt": "Allowed after leaving the setbacks"
+            },
+            {
+              "Plot_Size": "More than 1 Kanal  ",
+              "Building_Line": "15 ft",
+              "Rear_Space": "10 ft",
+              "Side_1": "5 ft",
+              "Side_2": "10 ft",
+              "Mumty_Area": "400 Sft",
+              "Bsmt": "Allowed after leaving the setbacks"
+            }
+          ]
+        },
+        {
+          "question": "What are the fees charged by the RDA and CDA (Residential) regarding map approval services/scrutiny fees?",
+          "answer": "CDA is charging Rs 6/sft on total covered area and RDA charges Rs 10/sft on total covered area of house.\n NOTE: Total amount will come after multiplying the per square feet rate with the total covered area e.g. 2500SFT (Covered area) X Rate (Rs 10/sft) = Rs 25,000/-. CDA accept this amount through pay order and RDA through bank deposit by filling voucher."
+        },
+        {
+          "question": "What are the timelines given by RDA for map approval?",
+          "answer": "RDA take 30 days after submitting submission drawings and required documents for approvals."
+        },
+        {
+          "question": "Required documents list for map approvals in approved housing schemes by RDA?",
+          "answer": "Documents required before submitting in government body before approvals:\nOwner CNIC (Attested)\nAllotment/ Transfer Letter (Society Attested Copy)\nPossession Letter (Society Attested Copy)\nNOC from Society (Original)\nMortgage Release Letter if applicable\nSub-Division letter (In case the plot was sub-divided by the RDA)\nBR-Form 1,3,4,6,10,11 and 17 (attached in RDA building regulations)\nUndertaking for damages on Rs 1000/- Stamp paper (BR-5)\nProposed Building plans (4 Ammonia Print, 2 Cloth amounted) Stamped by registered Architect.\nCertificate from structure engineer (RDA Registered)"
+        },
+        {
+          "question": "Required documents list for map approvals in CDA sectors and approved housing schemes?",
+          "DocumentsCopies": [
+            {
+              "DocumentsCopies": "Form A-I",
+              "Remarks": "Attested Copy"
+           
+            },
+            {
+              "DocumentsCopies": "Form A-II",
+              "Remarks": "Original"
+           
+            },
+            {
+              "DocumentsCopies": "Proposed Building Plans",
+              "Remarks": "Original 6-sets"
+           
+            },
+            {
+              "DocumentsCopies": "Allotment/Transfer Letter",
+              "Remarks": "Attested Copy"
+           
+            },
+            {
+              "DocumentsCopies": "Possession Certificate",
+              "Remarks": "Attested Copy"
+           
+            },
+            {
+              "DocumentsCopies": "Contour Plan (If applicable)",
+              "Remarks": "Original"
+           
+            },
+            {
+              "DocumentsCopies": "Letter of sub-division (If applicable)",
+              "Remarks": "Attested Copy"
+           
+            },
+            {
+              "DocumentsCopies": "Letter of acceptance of attorney letter by CDA (If applicable)",
+              "Remarks": "Attested Copy"
+           
+            },
+            {
+              "DocumentsCopies": "Owner/Attorney’s National Identity Card",
+              "Remarks": "Attested Copy"
+           
+            },
+            {
+              "DocumentsCopies": "Site plan for non-residential plot/buildings (If applicable)",
+              "Remarks": "Attested Copy"
+           
+            },
+            {
+              "DocumentsCopies": "Soil Investing Report (if applicable)",
+              "Remarks": "Attested Copy"
+           
+            },
+            {
+              "DocumentsCopies": "Pay Order/Bank draft of scrutiny fees",
+              "Remarks": "Attested Copy"
+           
+            }
+          
+
+          ]
+        },
+        {
+          "question": "Why people find map approval process from government or any competent authority difficult?",
+          "answer": "Only one reason people find this map approval process difficult because of awareness gap and lack of knowledge. Otherwise it’s not difficult to get approvals from the government/competent authority."
+        },
+        {
+          "question": "Is better to hire a company or consulting company for getting map approvals from the competent authority or government body?",
+          "answer": "Yes it is better to hire a company/consulting company for the process because they have the knowledge of preparation of right documents/drawings on the first time. Government go through from documents/drawings in precise way while vetting so it would be much recommended for the land owner to hire a company."
+        },
+        {
+          "question": " Is there any companies in market who can give you complete map approvals services or any other services regarding land?",
+          "answer": "Yes they are specialized companies in market who can give these services or you can get these services from our app Bunnyaad -> map approaval services as well."
+        }
+      
+      ]
+    },
+
+
+    {
+      "title": "STEP-5 (Construction)",
+      "description": [
+        "First step is you have to find a professional contractor with projects delivered and visit their accomplished projects and talk to their past clients so you can take reviews from them. It will help you gain trust because it’s a matter of your dream house and you all life savings. You can find trusted and approved contractor list from our app as well.",
+        "Keep in view these points mentioned below while signing agreement: \nWhat are the rates and which scope of works are included\nTimeline for the completion of work as mentioned like grey structure etc.\nIf you are doing with material agreement then please specify material and material make. Take samples of every material at the time of agreement so you can cross check at the time of execution\nMaterial testing reports should be on contractor head, so this should be checked on every delivery of material.\nFines should be apply on contractor on per day basis if projects gets delay from the delivery date as mentioned in agreement.\nAgreement should be made on stamp papers so no one can disobey from this. Not client neither contractor.\nIf you are going on per square feet rate than mentioned your total covered area on your agreement\nKindly finalize the other works which are not included in the covered area e.g. Boundary walls, parapet walls, UGWT, Septic Tank, OHWT etc.\nAlso mention the works which are not included in agreement with contractor.\nContractor should be able to read construction working drawings like structural drawings, architectural drawings, MEP drawings etc.\nPayment modes should be finalized on each milestone achievement."
+
+      ],
+      "faqs": [
+        {
+          "question": " What are the by-laws for design and construct your house in the approved housing schemes of RDA and CDA sectors?",
+          "SteelSizeofSteel": [
+            {
+              "DiameterofSteel": "#3",
+              "WeightinKgFeet": "0.17 Kg/Feet",
+              "TotalLengthoftheSteelBar": "40 Feet",
+              "TotalweightinKgofTotalLengthofthebar": "6.8 Kg"
+            },
+            {
+              "DiameterofSteel": "#4",
+              "WeightinKgFeet": "0.303 Kg/Feet",
+              "TotalLengthoftheSteelBar": "5 ft",
+              "TotalweightinKgofTotalLengthofthebar": "12.12 Kg"
+            },
+            {
+              "DiameterofSteel": "#5",
+              "WeightinKgFeet": "0.473 Kg/Feet",
+              "TotalLengthoftheSteelBar": "7 ft",
+              "TotalweightinKgofTotalLengthofthebar": "18.92 Kg"
+            },
+            {
+              "DiameterofSteel": "#6",
+              "WeightinKgFeet": "0.681 Kg/Feet",
+              "TotalLengthoftheSteelBar": "7 ft",
+              "TotalweightinKgofTotalLengthofthebar": "27.24 Kg"
+            },
+            {
+              "DiameterofSteel": "#7",
+              "WeightinKgFeet": "0.928 Kg/Feet",
+              "TotalLengthoftheSteelBar": "40 ft",
+              "TotalweightinKgofTotalLengthofthebar": "37.12 Kg"
+            },
+            {
+              "DiameterofSteel": "#8",
+              "WeightinKgFeet": "1.211 Kg/Feet",
+              "TotalLengthoftheSteelBar": "40 ft",
+              "TotalweightinKgofTotalLengthofthebar": "48.44 Kg"
+            },
+            {
+              "DiameterofSteel": "#9",
+              "WeightinKgFeet": "1.542 Kg/Feet",
+              "TotalLengthoftheSteelBar": "40 ft",
+              "TotalweightinKgofTotalLengthofthebar": "61.68 Kg"
+            },
+            {
+              "DiameterofSteel": "#10",
+              "WeightinKgFeet": "1.952 Kg/Feet",
+              "TotalLengthoftheSteelBar": "40 ft",
+              "TotalweightinKgofTotalLengthofthebar": "78.08 Kg"
+            }
+
+          ]
+      
+        },
+        {
+          "question": "What is the difference between raft and strip foundation and their recommendations?",
+          "answer": "Raft Foundation: Concrete for raft foundations is poured over the total area of the house, making it look like one big concrete slab.\nRecommendations:Raft foundations are used where the ground may be stable, but the bearing capacity is low or near 0.5 Ton/square feet, like boggy land, wet ground or where soils have been imported to site/soil filled land. \nStrip Foundation: Strip foundations consist of a continuous strip of concrete formed centrally under loadbearing walls. The continuous strip acts as support for which walls are built and is to a width to spread the load evenly of the building on the ground underneath it, supporting it.\nRecommendations: Strip foundation are used where ground is stable and bearing capacity is fine and not soil filling land. Bearing capacity should more than 0.8 Ton per square feet for strip foundation."
+        },
+        {
+          "question": "What is load bearing structure and frame structure? And where they are used?",
+          "answer": "Load bearing structure are were total load of building was hold by walls, columns and beams combine. This load bearing structures are mostly used for house construction and frame structure is different from load bearing structure, in this structure walls are used just for partition walls and all load was hold by column and beams."
+        },
+        {
+          "question": "Does housing societies approve concrete block construction for your house?",
+          "answer": " No, housing societies not prefer you to construct your house with concrete block, if you want to then you have to use filled concrete blocks with at least 3500Psi crushing strength and have to submit their crushing strength report/material test report from approved material testing company to BCD (Building Control Department) of respective societies."
+        },
+        {
+          "question": "What is the weight of a steel bar in one feet of #3, #4, #5, and #6?",
+          "DiameterofSteel": [
+            {
+              "DiameterofSteel": "#3",
+              "WeightinKg_Feet": "0.17 Kg/Feet"
+           
+            },
+            {
+              "DiameterofSteel": "#4",
+              "WeightinKg_Feet": "0.303 Kg/Feet"
+           
+            },
+            {
+              "DiameterofSteel": "#5",
+              "WeightinKg_Feet": "0.473 Kg/Feet"
+           
+            },
+            {
+              "DiameterofSteel": "#6",
+              "WeightinKg_Feet": "0.681 Kg/Feet"
+           
+            },
+            {
+              "DiameterofSteel": "#7",
+              "WeightinKg_Feet": "0.928 Kg/Feet"
+           
+            },
+            {
+              "DiameterofSteel": "#8",
+              "WeightinKg_Feet": "1.211 Kg/Feet"
+           
+            },
+            {
+              "DiameterofSteel": "#9",
+              "WeightinKg_Feet": "1.542 Kg/Feet"
+           
+            },
+            {
+              "DiameterofSteel": "",
+              "WeightinKg_Feet": "1.952 Kg/Feet"
+           
+            }
+          
+
+          ]
+        },
+        {
+          "question": "What are the piles and why structure engineer recommend it?",
+          "answer": "Piles are pushed into the ground to act as a steady support for structures built on top of them. Piles transfer the loads from structures to hard strata, rocks, or soil. Piles are recommended where soil bearing capacity is low and less than 0.5 Ton/sft."
+        },
+        {
+          "question": "Difference between plaster sand and brick work sand and how can you find practically",
+          "answer": "Plaster sand is fine in quality and used for providing smooth finish as compare to brick work sand is not that fine and also particles are not thin in size. Ghazi named sand is used for plaster and lawrencepur sand is used for brick work in surroundings of Islamabad and Rawalpindi."
+        },
+        {
+          "question": "Why plywood form work is more recommended rather than plank form work (Katchi Shuttering)?",
+          "answer": "As per engineering standards form work should be water tight so during pouring slurry of concrete should not get leak from the form work, if that happens than concrete will not get its recommended strength which is required for the structure, that is why plywood form work is more recommended by the engineers than plank form work (Katchi Shuttering)."
+        },
+        {
+          "question": "What is the correct concrete mixture for roof, foundation, column, and beam?",
+          "answer": "Concrete formula or mixture for roof, foundation, columns and beams is 1:2:4. 1 is considered as cement, 2 is sand and 4 is crush."
+        },
+        {
+          "question": "What is the correct concrete mixture for P.C.C (Katcha)?",
+          "answer": "Concrete formula or mixture for P.C.C (Katcha) is 1:4:8 where 1 is cement, 4 is sand and 8 is considered as crush. P.C.C (Katcha) is required before flooring and after excavation and before starting of steel works for foundation. This is also called as lean concrete. It is used to provide the uniform surface to the foundation concrete and to prevent the direct contact of foundation concrete or finish flooring with the soil."
+        },
+        {
+          "question": "Is there any A, B, C category in steel in Pakistan?",
+          "answer": "A category is considered as branded and which are high in rate but excellent in quality and pass all test like bending, yield, tensile strength test, B category steel is not branded, their rates are comparatively low than branded and also clear all test which is required before using and C category steels are re-rolling steel and made from scraps these are available in lowest rates as compare to A and B category and their test reports are not that satisfactory but they clear above mention test."
+        },
+        {
+          "question": "What is the standard length of steel bar if you buy from steel factory?",
+          "answer": "Standard length of a steel is 40 feet if steel bar is less than 40 Feet than it is not as per standards."
+        },
+        {
+          "question": "What is Sutar and why this word is used in construction while buying steel?",
+          "answer": "Sutar means mm in urdu and this word is normally used in buying steel. When someone is talking about 3 Sutar then person is talking about #3 steel bar and same as for #4 to #10. #8 steel bar is considered as 1 inch dia because in 1 inch is equals to 8 Sutar (8 mm)."
+        },
+        {
+          "question": "What is re-rolling steel and branded steel?",
+          "answer": "Re-rolling steel is manufactured by steel scrap and re-rolled to produce full length as per standards and branded steel is made from scratch and pure raw materials and as compare to re-rolling steel, branded steel are more in standards and as per engineering standards. This research based as per Pakistan market."
+        },
+        {
+          "question": "Which size of crush is normally used and why?",
+          "answer": "Crush is also called as aggregates as per engineering language. Crush mainly are of two types as per size 9.5mm (Fine) and 4.5mm (Coarse). Normally in house construction, crush will used in mix of both 9.5mm (Fine) and 4.5mm (Coarse) because the structural members are not large in size such as columns and beams so it’s easy to pour between steel in structure members."
+        },
+        {
+          "question": "Which type of crush (Aggregates) is mostly used in KPK and Islamabad surroundings?",
+          "answer": "Margalla Crush (Aggregates) is used because of easy availability of this crush (Aggregates) in KPK and Islamabad surrounding."
+        },
+        {
+          "question": "What is concrete cover and why is this important to check while steel work?",
+          "answer": "In easy way you can say concrete cover is a distance between steel and form work or shuttering so it can make some standard space between them to penetrate concrete so steel can be prevent from exposing in the environment which cause corrosion, rusting etc. Standard concrete covers are from 20mm to 30mm. Concrete cover would be around 30mm if building is near to seaside or where humidity is high as per normal."
+        },
+        {
+          "question": "What are spacers and why they should be used while steel job and before concrete pouring?",
+          "answer": "Spacers are small concrete parts which are used to maintain concrete cover or distance between steel and form work so concrete can easily penetrate between them. Sizes of spacers may vary for column, beam and roof etc."
+        },
+        {
+          "question": "What are the benefits of lab testing your structure material before applying and buying for your house?",
+          "answer": "There are 2 steps of testing material. One is before buying e.g. you are going to buy brick. 1st you have to collect samples from the vendor of bricks and sent them to material testing lab, if sample passes the test then give the order to your vendor and when material is dumped at your site, second step is to collect the sample from the dumped material and sent them to material testing lab. Once you received the reports then compare the both reports for satisfaction."
+        },
+        {
+          "question": "What is vibrator and its importance during concrete pouring?",
+          "answer": "When a wet concrete is poured in structural members, air bubbles become trapped within the concrete mixture creating cavities or honeycomb-like spaces. Too much using vibrator can cause segregation and bleeding in concrete which is also not acceptable as per engineering standards."
+        },
+        {
+          "question": "Importance of watering concrete member’s like slab, beams, columns etc. right after pouring/concreting, and how many days you have to water and also what is the right way to do?",
+          "answer": "Curing/watering is an important which can’t be neglected. Concrete gains its strength through curing. Minimum days required for curing for gaining strength is at least 28 days. Curing for horizontal area like slab and foundation by making boundaries of sand in the corners and fill up the area in the center by water and vertical structural member like columns by wrapping them by hessian fabric."
+        },
+        {
+          "question": "What is the difference between 40 and 60 grade steel?",
+          "answer": "Grade 40 has a minimum yield strength of 40,000 PSI and a minimum tensile strength of 60,000 PSI. By comparison, grade 60 rebar has a minimum yield strength of 60,000 PSI and a minimum tensile strength of 90,000 PSI. In Pakistan in residential construction industry 40 Grade steel is mostly preferred by the structural engineers."
+        },
+        {
+          "question": "Where #3, #4 and #6 steels are used in buildings and reasons?",
+          "answer": "#3 steel is normally used in column rings and extra bars on slab where number #4 and #6 steel is used as main bars in columns, beams and in slabs as main and distribution bars."
+        },
+        {
+          "question": "What is fly ash bricks and is it recommended?",
+          "answer": "Fly ash bricks is a mixture of fly ash, water, quicklime or lime sludge, cement, aluminum powder and gypsum. Fly ash brick has a more uniform shape as they are cast in machine mold. These bricks are still not recommended by the Engineers in Pakistan and as per ASTM standards as well. These bricks are not in-listed in ASTM standards till now."
+        },
+        {
+          "question": "What should be the best thickness of plaster and mixture of cement and sand?",
+          "answer": "Thickness of plaster used half inch in thickness and 1:4 is mixture for plaster in which 1 is cement and 4 considered as sand."
+        },
+        {
+          "question": "What is main difference between ready mix concrete and on site mix concrete?",
+          "answer": "Ready Mix Concrete is mixed from plant as per the requirement you want like 1:2:4 or 1:4:8 and shifted to site in Transit Mixers (TM) and poured at site through concrete pump. Ready mix concrete is more recommended because of the mixing of ingredients and less chances of segregation whereas on site mixing is not that satisfactory, on site mixing causes segregation and losing strength before pouring and this also gets dry before pouring."
+        },
+        {
+          "question": "How can you check concrete quality on site before pouring or during pouring?",
+          "answer": "Before pouring concrete will be test through slump test. Slump test define water cement ratio. In which you can test is water is excessively used or not in concrete. During pouring you have to check factors like too much using vibrator in concrete will cause bleeding (Cement slurry leaves concrete and comes on top the surface is called bleeding) and segregation in concrete (Segregation in which all mixture of concrete like cement, sand and crush loose it’s bond between them, this process is called segregation). This all process causes honey-combing, decrease in density, and ultimately loss of strength of concrete."
+        },
+        {
+          "question": "Ways to improve your concrete Quality on site or during construction of your home?",
+          "answer": "7 Basic ways to improve concrete quality on site or during construction of your home. As mentioned below \n1. Use well fine aggregates.\n2. Use sufficient quantity of cement to achieve required water tightness and strength as per recommendation of your site engineer. \n3. Mix the concrete thoroughly for getting better homogeneity.\n4. Keep the water-cement ratio as minimum as possible.\n5. Compact the freshly placed concrete to remove air bubbles and voids.\n6. Cure the concrete properly at least for 28 days.\n7. Maintain the concrete temperature above the freezing point until it becomes hard enough."
+        },
+        {
+          "question": "What is septic tank, why this is important in basements?",
+          "answer": "Septic tank is used to collect sewage and waste water of the house and then through pump you can extract waste water to main sewer lines of area whereas remained sludge in septic tank extract through sewer pump. In basements washrooms and kitchen wastewater cannot be extract through gravity to main holes and then to main sewer line of the society so septic tank is important to play role in extracting wastewater from the basement."
+        }
+        
+      
+      ]
+    }
+
+  ]
+}

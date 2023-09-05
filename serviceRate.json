@@ -1,0 +1,781 @@
+{
+  "data": [
+
+    {
+      "plotid": "1",
+      "20x40": [
+        {
+          "G_F_M_id": "2",
+          "G_F_M ": [
+            {
+              "id": 1,
+              "name": "Submission Drawings (Complete file regarding submission in competent authority)",
+              "value": "true",
+              "price": "25,000"
+            },
+            {
+              "id": 2,
+              "name": "Architectural Working Booklet",
+              "value": "true",
+              "price": "15,000"
+            },
+            {
+              "id": 3,
+              "name": "Structural Drawing including structural stability certificate (Including Soil Test)",
+              "value": "false",
+              "price": "25,000"
+            },
+            {
+              "id": 4,
+              "name": "Electrical working drawing",
+              "value": "false",
+              "price": "5000"
+            },
+            {
+              "id": 5,
+              "name": "Plumbing working drawing",
+              "value": "false",
+              "price": "5000"
+            },
+            {
+              "id": 6,
+              "name": "Interior Designing (Realistic 3D renders and finishing material BOQ)",
+              "value": "false",
+              "price": "100,000"
+            },
+            {
+              "id": 7,
+              "name": "Drawings/Map Approval from competent authority (Exclusive of Society and Government fees)",
+              "value": "false",
+              "price": "30,000"
+            },
+            {
+              "id": 8,
+              "name": "Construction Services (Complete Turn-Key Solution)",
+              "value": "false",
+              "price": ""
+            }
+          ]
+        },
+        {
+          "G_M_id": "4",
+          "G_M ": [
+            {
+              "id": 1,
+              "name": "Submission Drawings (Complete file regarding submission in competent authority)",
+              "value": "true",
+              "price": "20,000"
+            },
+            {
+              "id": 2,
+              "name": "Architectural Working Booklet",
+              "value": "true",
+              "price": "10,000"
+            },
+            {
+              "id": 3,
+              "name": "Structural Drawing including structural stability certificate (Including Soil Test)",
+              "value": "false",
+              "price": "25,000"
+            },
+            {
+              "id": 4,
+              "name": "Electrical working drawing",
+              "value": "false",
+              "price": "5000"
+            },
+            {
+              "id": 5,
+              "name": "Plumbing working drawing",
+              "value": "false",
+              "price": "5000"
+            },
+            {
+              "id": 6,
+              "name": "Interior Designing (Realistic 3D renders and finishing material BOQ)",
+              "value": "false",
+              "price": "50,000"
+            },
+            {
+              "id": 7,
+              "name": "Drawings/Map Approval from competent authority (Exclusive of Society and Government fees)",
+              "value": "false",
+              "price": "30,000"
+            },
+            {
+              "id": 8,
+              "name": "Construction Services (Complete Turn-Key Solution)",
+              "value": "false",
+              "price": ""
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "plotid": "2",
+      "25x45": [
+        {
+          "G_F_M_id": "2",
+          "G_F_M ": [
+            {
+              "id": 1,
+              "name": "Submission Drawings (Complete file regarding submission in competent authority)",
+              "value": "true",
+              "price": "25,000"
+            },
+            {
+              "id": 2,
+              "name": "Architectural Working Booklet",
+              "value": "true",
+              "price": "15,000"
+            },
+            {
+              "id": 3,
+              "name": "Structural Drawing including structural stability certificate (Including Soil Test)",
+              "value": "false",
+              "price": "25,000"
+            },
+            {
+              "id": 4,
+              "name": "Electrical working drawing",
+              "value": "false",
+              "price": "5000"
+            },
+            {
+              "id": 5,
+              "name": "Plumbing working drawing",
+              "value": "false",
+              "price": "5000"
+            },
+            {
+              "id": 6,
+              "name": "Interior Designing (Realistic 3D renders and finishing material BOQ)",
+              "value": "false",
+              "price": "100,000"
+            },
+            {
+              "id": 7,
+              "name": "Drawings/Map Approval from competent authority (Exclusive of Society and Government fees)",
+              "value": "false",
+              "price": "30,000"
+            },
+            {
+              "id": 8,
+              "name": "Construction Services (Complete Turn-Key Solution)",
+              "value": "false",
+              "price": ""
+            }
+          ]
+        },
+        {
+          "G_M_id": "4",
+          "G_M ": [
+            {
+              "id": 1,
+              "name": "Submission Drawings (Complete file regarding submission in competent authority)",
+              "value": "true",
+              "price": "20,000"
+            },
+            {
+              "id": 2,
+              "name": "Architectural Working Booklet",
+              "value": "true",
+              "price": "15,000"
+            },
+            {
+              "id": 3,
+              "name": "Structural Drawing including structural stability certificate (Including Soil Test)",
+              "value": "false",
+              "price": "25,000"
+            },
+            {
+              "id": 4,
+              "name": "Electrical working drawing",
+              "value": "false",
+              "price": "5000"
+            },
+            {
+              "id": 5,
+              "name": "Plumbing working drawing",
+              "value": "false",
+              "price": "5000"
+            },
+            {
+              "id": 6,
+              "name": "Interior Designing (Realistic 3D renders and finishing material BOQ)",
+              "value": "false",
+              "price": "50,000"
+            },
+            {
+              "id": 7,
+              "name": "Drawings/Map Approval from competent authority (Exclusive of Society and Government fees)",
+              "value": "false",
+              "price": "30,000"
+            },
+            {
+              "id": 8,
+              "name": "Construction Services (Complete Turn-Key Solution)",
+              "value": "false",
+              "price": ""
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "plotid": "3",
+      "25x50": [
+        {
+          "G_F_M_id": "2",
+          "G_F_M ": [
+            {
+              "id": 1,
+              "name": "Submission Drawings (Complete file regarding submission in competent authority)",
+              "value": "true",
+              "price": "25,000"
+            },
+            {
+              "id": 2,
+              "name": "Architectural Working Booklet",
+              "value": "true",
+              "price": "15,000"
+            },
+            {
+              "id": 3,
+              "name": "Structural Drawing including structural stability certificate (Including Soil Test)",
+              "value": "false",
+              "price": "25,000"
+            },
+            {
+              "id": 4,
+              "name": "Electrical working drawing",
+              "value": "false",
+              "price": "5000"
+            },
+            {
+              "id": 5,
+              "name": "Plumbing working drawing",
+              "value": "false",
+              "price": "5000"
+            },
+            {
+              "id": 6,
+              "name": "Interior Designing (Realistic 3D renders and finishing material BOQ)",
+              "value": "false",
+              "price": "100,000"
+            },
+            {
+              "id": 7,
+              "name": "Drawings/Map Approval from competent authority (Exclusive of Society and Government fees)",
+              "value": "false",
+              "price": "30,000"
+            },
+            {
+              "id": 8,
+              "name": "Construction Services (Complete Turn-Key Solution)",
+              "value": "false",
+              "price": ""
+            }
+          ]
+        },
+        {
+          "G_M_id": "4",
+          "G_M ": [
+            {
+              "id": 1,
+              "name": "Submission Drawings (Complete file regarding submission in competent authority)",
+              "value": "true",
+              "price": "25,000"
+            },
+            {
+              "id": 2,
+              "name": "Architectural Working Booklet",
+              "value": "true",
+              "price": "15,000"
+            },
+            {
+              "id": 3,
+              "name": "Structural Drawing including structural stability certificate (Including Soil Test)",
+              "value": "false",
+              "price": "25,000"
+            },
+            {
+              "id": 4,
+              "name": "Electrical working drawing",
+              "value": "false",
+              "price": "5000"
+            },
+            {
+              "id": 5,
+              "name": "Plumbing working drawing",
+              "value": "false",
+              "price": "5000"
+            },
+            {
+              "id": 6,
+              "name": "Interior Designing (Realistic 3D renders and finishing material BOQ)",
+              "value": "false",
+              "price": "65,000"
+            },
+            {
+              "id": 7,
+              "name": "Drawings/Map Approval from competent authority (Exclusive of Society and Government fees)",
+              "value": "false",
+              "price": "30,000"
+            },
+            {
+              "id": 8,
+              "name": "Construction Services (Complete Turn-Key Solution)",
+              "value": "false",
+              "price": ""
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "plotid": "5",
+      "30x60": [
+        {
+          "G_F_M_id": "2",
+          "G_F_M ": [
+            {
+              "id": 1,
+              "name": "Submission Drawings (Complete file regarding submission in competent authority)",
+              "value": "true",
+              "price": "25,000"
+            },
+            {
+              "id": 2,
+              "name": "Architectural Working Booklet",
+              "value": "true",
+              "price": "20,000"
+            },
+            {
+              "id": 3,
+              "name": "Structural Drawing including structural stability certificate (Including Soil Test)",
+              "value": "false",
+              "price": "25,000"
+            },
+            {
+              "id": 4,
+              "name": "Electrical working drawing",
+              "value": "false",
+              "price": "8000"
+            },
+            {
+              "id": 5,
+              "name": "Plumbing working drawing",
+              "value": "false",
+              "price": "8000"
+            },
+            {
+              "id": 6,
+              "name": "Interior Designing (Realistic 3D renders and finishing material BOQ)",
+              "value": "false",
+              "price": "120,000"
+            },
+            {
+              "id": 7,
+              "name": "Drawings/Map Approval from competent authority (Exclusive of Society and Government fees)",
+              "value": "false",
+              "price": "30,000"
+            },
+            {
+              "id": 8,
+              "name": "Construction Services (Complete Turn-Key Solution)",
+              "value": "false",
+              "price": ""
+            }
+          ]
+        },
+        {
+          "B_G_M_id": "3",
+          "B_G_M ": [
+            {
+              "id": 1,
+              "name": "Submission Drawings (Complete file regarding submission in competent authority)",
+              "value": "true",
+              "price": "25,000"
+            },
+            {
+              "id": 2,
+              "name": "Architectural Working Booklet",
+              "value": "true",
+              "price": "20,000"
+            },
+            {
+              "id": 3,
+              "name": "Structural Drawing including structural stability certificate (Including Soil Test)",
+              "value": "false",
+              "price": "25,000"
+            },
+            {
+              "id": 4,
+              "name": "Electrical working drawing",
+              "value": "false",
+              "price": "8000"
+            },
+            {
+              "id": 5,
+              "name": "Plumbing working drawing",
+              "value": "false",
+              "price": "8000"
+            },
+            {
+              "id": 6,
+              "name": "Interior Designing (Realistic 3D renders and finishing material BOQ)",
+              "value": "false",
+              "price": "120,000"
+            },
+            {
+              "id": 7,
+              "name": "Drawings/Map Approval from competent authority (Exclusive of Society and Government fees)",
+              "value": "false",
+              "price": "30,000"
+            },
+            {
+              "id": 8,
+              "name": "Construction Services (Complete Turn-Key Solution)",
+              "value": "false",
+              "price": ""
+            }
+          ]
+        },
+
+        {
+          "B_G_F_M_id": "1",
+          "B_G__F_M ": [
+            {
+              "id": 1,
+              "name": "Submission Drawings (Complete file regarding submission in competent authority)",
+              "value": "true",
+              "price": "28,000"
+            },
+            {
+              "id": 2,
+              "name": "Architectural Working Booklet",
+              "value": "true",
+              "price": "30,000"
+            },
+            {
+              "id": 3,
+              "name": "Structural Drawing including structural stability certificate (Including Soil Test)",
+              "value": "false",
+              "price": "30,000"
+            },
+            {
+              "id": 4,
+              "name": "Electrical working drawing",
+              "value": "false",
+              "price": "8000"
+            },
+            {
+              "id": 5,
+              "name": "Plumbing working drawing",
+              "value": "false",
+              "price": "8000"
+            },
+            {
+              "id": 6,
+              "name": "Interior Designing (Realistic 3D renders and finishing material BOQ)",
+              "value": "false",
+              "price": "150,000"
+            },
+            {
+              "id": 7,
+              "name": "Drawings/Map Approval from competent authority (Exclusive of Society and Government fees)",
+              "value": "false",
+              "price": "35,000"
+            },
+            {
+              "id": 8,
+              "name": "Construction Services (Complete Turn-Key Solution)",
+              "value": "false",
+              "price": ""
+            }
+          ]
+        },
+
+        {
+          "G_M_id": "4",
+          "G_M ": [
+            {
+              "id": 1,
+              "name": "Submission Drawings (Complete file regarding submission in competent authority)",
+              "value": "true",
+              "price": "25,000"
+            },
+            {
+              "id": 2,
+              "name": "Architectural Working Booklet",
+              "value": "true",
+              "price": "20,000"
+            },
+            {
+              "id": 3,
+              "name": "Structural Drawing including structural stability certificate (Including Soil Test)",
+              "value": "false",
+              "price": "25,000"
+            },
+            {
+              "id": 4,
+              "name": "Electrical working drawing",
+              "value": "false",
+              "price": "8000"
+            },
+            {
+              "id": 5,
+              "name": "Plumbing working drawing",
+              "value": "false",
+              "price": "8000"
+            },
+            {
+              "id": 6,
+              "name": "Interior Designing (Realistic 3D renders and finishing material BOQ)",
+              "value": "false",
+              "price": "100,000"
+            },
+            {
+              "id": 7,
+              "name": "Drawings/Map Approval from competent authority (Exclusive of Society and Government fees)",
+              "value": "false",
+              "price": "30,000"
+            },
+            {
+              "id": 8,
+              "name": "Construction Services (Complete Turn-Key Solution)",
+              "value": "false",
+              "price": ""
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "plotid": "6",
+      "30x70": [
+        {
+          "G_F_M_id": "2",
+          "G_F_M ": [
+            {
+              "id": 1,
+              "name": "Submission Drawings (Complete file regarding submission in competent authority)",
+              "value": "true",
+              "price": "25,000"
+            },
+            {
+              "id": 2,
+              "name": "Architectural Working Booklet",
+              "value": "true",
+              "price": "20,000"
+            },
+            {
+              "id": 3,
+              "name": "Structural Drawing including structural stability certificate (Including Soil Test)",
+              "value": "false",
+              "price": "25,000"
+            },
+            {
+              "id": 4,
+              "name": "Electrical working drawing",
+              "value": "false",
+              "price": "8000"
+            },
+            {
+              "id": 5,
+              "name": "Plumbing working drawing",
+              "value": "false",
+              "price": "8000"
+            },
+            {
+              "id": 6,
+              "name": "Interior Designing (Realistic 3D renders and finishing material BOQ)",
+              "value": "false",
+              "price": "120,000"
+            },
+            {
+              "id": 7,
+              "name": "Drawings/Map Approval from competent authority (Exclusive of Society and Government fees)",
+              "value": "false",
+              "price": "30,000"
+            },
+            {
+              "id": 8,
+              "name": "Construction Services (Complete Turn-Key Solution)",
+              "value": "false",
+              "price": ""
+            }
+          ]
+        },
+        {
+          "B_G_M_id": "3",
+          "B_G_M ": [
+            {
+              "id": 1,
+              "name": "Submission Drawings (Complete file regarding submission in competent authority)",
+              "value": "true",
+              "price": "25,000"
+            },
+            {
+              "id": 2,
+              "name": "Architectural Working Booklet",
+              "value": "true",
+              "price": "20,000"
+            },
+            {
+              "id": 3,
+              "name": "Structural Drawing including structural stability certificate (Including Soil Test)",
+              "value": "false",
+              "price": "25,000"
+            },
+            {
+              "id": 4,
+              "name": "Electrical working drawing",
+              "value": "false",
+              "price": "8000"
+            },
+            {
+              "id": 5,
+              "name": "Plumbing working drawing",
+              "value": "false",
+              "price": "8000"
+            },
+            {
+              "id": 6,
+              "name": "Interior Designing (Realistic 3D renders and finishing material BOQ)",
+              "value": "false",
+              "price": "120,000"
+            },
+            {
+              "id": 7,
+              "name": "Drawings/Map Approval from competent authority (Exclusive of Society and Government fees)",
+              "value": "false",
+              "price": "30,000"
+            },
+            {
+              "id": 8,
+              "name": "Construction Services (Complete Turn-Key Solution)",
+              "value": "false",
+              "price": ""
+            }
+          ]
+        },
+
+        {
+          "B_G_F_M_id": "1",
+          "B_G__F_M ": [
+            {
+              "id": 1,
+              "name": "Submission Drawings (Complete file regarding submission in competent authority)",
+              "value": "true",
+              "price": "28,000"
+            },
+            {
+              "id": 2,
+              "name": "Architectural Working Booklet",
+              "value": "true",
+              "price": "30,000"
+            },
+            {
+              "id": 3,
+              "name": "Structural Drawing including structural stability certificate (Including Soil Test)",
+              "value": "false",
+              "price": "30,000"
+            },
+            {
+              "id": 4,
+              "name": "Electrical working drawing",
+              "value": "false",
+              "price": "8000"
+            },
+            {
+              "id": 5,
+              "name": "Plumbing working drawing",
+              "value": "false",
+              "price": "8000"
+            },
+            {
+              "id": 6,
+              "name": "Interior Designing (Realistic 3D renders and finishing material BOQ)",
+              "value": "false",
+              "price": "150,000"
+            },
+            {
+              "id": 7,
+              "name": "Drawings/Map Approval from competent authority (Exclusive of Society and Government fees)",
+              "value": "false",
+              "price": "35,000"
+            },
+            {
+              "id": 8,
+              "name": "Construction Services (Complete Turn-Key Solution)",
+              "value": "false",
+              "price": ""
+            }
+          ]
+        },
+
+        {
+          "G_M_id": "4",
+          "G_M ": [
+            {
+              "id": 1,
+              "name": "Submission Drawings (Complete file regarding submission in competent authority)",
+              "value": "true",
+              "price": "25,000"
+            },
+            {
+              "id": 2,
+              "name": "Architectural Working Booklet",
+              "value": "true",
+              "price": "20,000"
+            },
+            {
+              "id": 3,
+              "name": "Structural Drawing including structural stability certificate (Including Soil Test)",
+              "value": "false",
+              "price": "25,000"
+            },
+            {
+              "id": 4,
+              "name": "Electrical working drawing",
+              "value": "false",
+              "price": "8000"
+            },
+            {
+              "id": 5,
+              "name": "Plumbing working drawing",
+              "value": "false",
+              "price": "8000"
+            },
+            {
+              "id": 6,
+              "name": "Interior Designing (Realistic 3D renders and finishing material BOQ)",
+              "value": "false",
+              "price": "100,000"
+            },
+            {
+              "id": 7,
+              "name": "Drawings/Map Approval from competent authority (Exclusive of Society and Government fees)",
+              "value": "false",
+              "price": "30,000"
+            },
+            {
+              "id": 8,
+              "name": "Construction Services (Complete Turn-Key Solution)",
+              "value": "false",
+              "price": ""
+            }
+          ]
+        }
+      ]
+    }
+    
+  ]
+}
