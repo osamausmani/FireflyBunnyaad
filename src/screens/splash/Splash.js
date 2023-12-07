@@ -19,11 +19,13 @@ const Splash = ({ navigation }) => {
 
   const getUserData = async () => {
     const res = await _retrieveObject("@tokenObj");
-    if (res) {
-      navigation.replace("AppStack");
-    } else {
-      navigation.replace("NOnBoard");
-    }
+    // if (res) {
+    //   navigation.replace("AppStack");
+    // } else {
+    //   navigation.replace("NOnBoard");
+    // }
+
+    navigation.replace("SignIn");
   };
 
   useEffect(() => {

@@ -6,6 +6,7 @@ import {
   Text,
   TouchableOpacity,
   View,
+  Alert,
 } from "react-native";
 import React, { useState, useEffect } from "react";
 import { KeyboardAwareScrollView } from "react-native-keyboard-aware-scroll-view";
@@ -90,8 +91,9 @@ const Otp = ({ navigation, route }) => {
       };
 
       PostRequest(validateUserOtpApi, modal).then((res) => {
+        console.log(modal);
         if (res === 0) {
-          alert("You have entered an invalid code.", err);
+          alert("You have entered an invalid code.");
         } else {
           Alert.alert("", "Your account is successfully created.", [
             {
@@ -100,6 +102,7 @@ const Otp = ({ navigation, route }) => {
                 _setData("@token", JSON.stringify(user));
                 decodeJwt(res);
                 navigation.replace("AppStack");
+                // navigation.replace("SignIn");
               },
             },
           ]);

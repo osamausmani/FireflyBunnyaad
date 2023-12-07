@@ -9,36 +9,35 @@ import {
   StatusBar,
   Text,
   ActivityIndicator,
- 
-} from 'react-native';
-import { useRef } from 'react';
-import React, {useContext, useState, useEffect} from 'react';
-import Icons from 'react-native-vector-icons/AntDesign';
-import RNHTMLtoPDF from 'react-native-html-to-pdf';
-import FileViewer from 'react-native-file-viewer';
-import Share from 'react-native-share';
-import AppText from '../../../component/appComponnet/AppText';
-import AppSubmitButton from '../../../component/appComponnet/AppSubmitButton';
-import {Colors} from '../../../constants';
-import {AppContext} from '../../../contextApi/AppProvider';
+} from "react-native";
+import { useRef } from "react";
+import React, { useContext, useState, useEffect } from "react";
+import Icons from "react-native-vector-icons/AntDesign";
+import RNHTMLtoPDF from "react-native-html-to-pdf";
+import FileViewer from "react-native-file-viewer";
+import Share from "react-native-share";
+import AppText from "../../../component/appComponnet/AppText";
+import AppSubmitButton from "../../../component/appComponnet/AppSubmitButton";
+import { Colors } from "../../../constants";
+import { AppContext } from "../../../contextApi/AppProvider";
 import {
   imgUrl,
   insertClientCostEstimateApi,
   uploadAttachmentBase64Api,
-} from '../../../api/apiEndPoint';
-import ModalCostSave from '../../../component/appModal/ModalCostSave';
-import {PostRequest} from '../../../api/axios';
-import RNFetchBlob from 'rn-fetch-blob';
-import RNFS from 'react-native-fs';
-import Pdf from 'react-native-pdf';
-import {getUriToBase64} from '../../../constants/HelperFunctions';
-import ModalSignIn from '../../../component/appModal/ModalSignIn';
-import ModalSignup from '../../../component/appModal/ModalSignup';
-import ModalOtp from '../../../component/appModal/ModalOtp';
-import {Col, Row, Grid} from 'react-native-easy-grid';
-import notes from './notes.json'
+} from "../../../api/apiEndPoint";
+import ModalCostSave from "../../../component/appModal/ModalCostSave";
+import { PostRequest } from "../../../api/axios";
+import RNFetchBlob from "rn-fetch-blob";
+import RNFS from "react-native-fs";
+import Pdf from "react-native-pdf";
+import { getUriToBase64 } from "../../../constants/HelperFunctions";
+import ModalSignIn from "../../../component/appModal/ModalSignIn";
+import ModalSignup from "../../../component/appModal/ModalSignup";
+import ModalOtp from "../../../component/appModal/ModalOtp";
+import { Col, Row, Grid } from "react-native-easy-grid";
+import notes from "./notes.json";
 
-const BOQGreyStructure = ({navigation,route}) => {
+const BOQGreyStructure = ({ navigation, route }) => {
   const {
     result,
     constructionData,
@@ -49,30 +48,30 @@ const BOQGreyStructure = ({navigation,route}) => {
     downloadData,
     setDownloadData,
   } = useContext(AppContext);
-  
-  const[image,setImage] =useState(route.params.image)
+
+  const [image, setImage] = useState(route.params.image);
 
   const boqData = [
-    {key: 'City', value: result.city},
-    {key: 'Plot Area', value: result.plotArea},
-    {key: 'Size of Plot', value: result.sizeOfPlot},
-    {key: 'Construction Quality', value: result.constructionQuality},
-    {key: 'Plot Categories', value: result.plotCategory},
-    {key: 'No. of Floors', value: result.noOfFloors},
+    { key: "City", value: result.city },
+    { key: "Plot Area", value: result.plotArea },
+    { key: "Size of Plot", value: result.sizeOfPlot },
+    { key: "Construction Quality", value: result.constructionQuality },
+    { key: "Plot Categories", value: result.plotCategory },
+    { key: "No. of Floors", value: result.noOfFloors },
   ];
-  const [saveFile, setSaveFile] = useState('');
+  const [saveFile, setSaveFile] = useState("");
   const [showSaveProjectModal, setShowSaveProjectModal] = useState(false);
 
   const [totalAmount, setTotalAmount] = useState(0);
   const [modalData, setModalData] = useState(null);
   const [details] = useState([
-    {name: 'city', value: 'islamabad'},
-    {name: 'plot Area', value: 'Bahria'},
-    {name: 'size of Plot ', value: '5 Marla'},
-    {name: 'Construction Quality', value: 'Custome'},
-    {name: 'Plot Categories', value: 'General (Non-corner)'},
-    {name: 'No of Floors', value: 'Basement + corner +1st floor + Mumty'},
-    {name: 'No of Units', value: 'Single Unit'},
+    { name: "city", value: "islamabad" },
+    { name: "plot Area", value: "Bahria" },
+    { name: "size of Plot ", value: "5 Marla" },
+    { name: "Construction Quality", value: "Custome" },
+    { name: "Plot Categories", value: "General (Non-corner)" },
+    { name: "No of Floors", value: "Basement + corner +1st floor + Mumty" },
+    { name: "No of Units", value: "Single Unit" },
   ]);
 
   const [showLoginModal, setShowLoginModal] = useState(false);
@@ -85,23 +84,20 @@ const BOQGreyStructure = ({navigation,route}) => {
     cache: true,
   };
 
-
   useEffect(() => {
     floorPlanData &&
       floorPlanData.modalData &&
       setModalData(floorPlanData.modalData);
     let sum = [];
     constructionData &&
-      constructionData.map(element => {
+      constructionData.map((element) => {
         sum.push(element.amount);
       });
     let TotalAmount = sum.reduce(function (a, b) {
       return a + b;
-    },0);
+    }, 0);
     setTotalAmount(TotalAmount);
-
   }, []);
-
 
   const htmlContent = `
               <html>
@@ -125,12 +121,12 @@ const BOQGreyStructure = ({navigation,route}) => {
                     </heading>
                   </header>
                   ${details.map(
-                    item => `
+                    (item) => `
                   <div class ="details">
                   <p>${item.name}</p> 
                   <p>${item.value}</p>
                   </div>
-                  `,
+                  `
                   )}
                   <br/>
                   <br/>
@@ -143,7 +139,7 @@ const BOQGreyStructure = ({navigation,route}) => {
                      (item, i) => `<div class="detail">
                  <p>${item.rawMaterialQuality}</p>
                 <p>${item.rawMaterialQuality}   [ ${item.amount} Pkr ]</p>
-                </div>`,
+                </div>`
                    )
                  }
                 
@@ -154,14 +150,14 @@ const BOQGreyStructure = ({navigation,route}) => {
                     ${
                       modalData !== null &&
                       modalData.map(
-                        item => `<div>
+                        (item) => `<div>
                     <img
                     width="100%" height="100%"
                     style= align-self: center;"
                     src= ${imgUrl}/${item.path}
                   />
                   <p>${item.attachmentText}</p>
-                    </div>`,
+                    </div>`
                       )
                     }
                       
@@ -171,22 +167,21 @@ const BOQGreyStructure = ({navigation,route}) => {
               </html>
             `;
 
-
   const createPDF = async () => {
     let options = {
       //Content to print
       html: htmlContent,
       //File Name
-      fileName: 'Report',
+      fileName: "Report",
       //File directory
-      directory: 'Download',
+      directory: "Download",
       base64: true,
     };
 
     let file = await RNHTMLtoPDF.convert(options);
-    getUriToBase64(file.filePath).then(res => {
-        setSaveFile(res)
-    })
+    getUriToBase64(file.filePath).then((res) => {
+      setSaveFile(res);
+    });
     setSaveFile(file.base64);
     // { file && openFile(file.filePath) }
     // Alert.alert('Successfully Exported', [
@@ -194,39 +189,38 @@ const BOQGreyStructure = ({navigation,route}) => {
     //   { text: 'Open', onPress: () => openFile(file.filePath) }
     // ], { cancelable: true });
   };
-  const openFile = filepath => {
+  const openFile = (filepath) => {
     const path = filepath; // absolute-path-to-my-local-file.
     FileViewer.open(path)
       .then(() => {
         // success
       })
-      .catch(error => {
+      .catch((error) => {
         // error
       });
   };
 
   const myCustomShare = async () => {
     const shareOptions = {
-      message: 'Report',
+      message: "Report",
       url: `file:///${saveFile}`,
     };
 
     try {
       const ShareResponse = await Share.open(shareOptions);
     } catch (error) {
-      console.log('Error => ', error);
+      console.log("Error => ", error);
     }
   };
 
-
-  const SaveCostEstimate = async projectName => {
+  const SaveCostEstimate = async (projectName) => {
     // console.log(projectName, saveFile);
     try {
       const Model = {
         userID: 0,
-        userKey: 'string',
-        languageCode: 'en',
-        ip: 'string',
+        userKey: "string",
+        languageCode: "en",
+        ip: "string",
         responseState: 200,
         isPremium: false,
         clientCostEstimate: {
@@ -253,7 +247,10 @@ const BOQGreyStructure = ({navigation,route}) => {
           isPaid: false,
           paymentMethodId: 0,
           paymentTransactionId: null,
-          rawMaterialDetails:constructionData !== null? JSON.stringify(constructionData): 'string',
+          rawMaterialDetails:
+            constructionData !== null
+              ? JSON.stringify(constructionData)
+              : "string",
           finishingRawMaterialDetails: null,
           completedPercentage: 100,
           isFullyCompleted: true,
@@ -262,8 +259,8 @@ const BOQGreyStructure = ({navigation,route}) => {
           isInterestedInHomeFinance: false,
           diagramLeadStatus: 0,
           homeFinanceLeadStatus: 0,
-          createdAt: '2022-12-07T12:48:43.935Z',
-          updatedAt: '2022-12-07T12:48:43.935Z',
+          createdAt: "2022-12-07T12:48:43.935Z",
+          updatedAt: "2022-12-07T12:48:43.935Z",
           createdBy: authData?.userId0,
           updatedBy: authData?.userId,
           dataStateId: 1,
@@ -272,19 +269,18 @@ const BOQGreyStructure = ({navigation,route}) => {
       };
       const res = await PostRequest(insertClientCostEstimateApi, Model);
       if (res === 0) {
-        console.log('error');
+        console.log("error");
       } else {
         handleUploadFile(res.clientCostEstimate.id);
-        setCostEstimateId(res.clientCostEstimate.id)
-        return res.clientCostEstimate; 
+        setCostEstimateId(res.clientCostEstimate.id);
+        return res.clientCostEstimate;
       }
     } catch (error) {
       console.log(error);
     }
   };
 
-
-  const handleUploadFile = id => {
+  const handleUploadFile = (id) => {
     const date = new Date();
     const model = {
       files: [
@@ -292,7 +288,7 @@ const BOQGreyStructure = ({navigation,route}) => {
           base64String: `${saveFile}`,
           fileName: `costEstimate_${date.getMilliseconds()}.pdf`,
           title: `costEstimate_${date.getMilliseconds()}.pdf`,
-          description: 'report',
+          description: "report",
           isPremium: false,
           isElevation: false,
           sortOrder: 0,
@@ -303,17 +299,17 @@ const BOQGreyStructure = ({navigation,route}) => {
       userID: Number(authData.userId),
       attachmentID: 0,
     };
-    console.log(JSON.stringify(model, null, 2))
-    PostRequest(uploadAttachmentBase64Api, model).then(res => {
+    console.log(JSON.stringify(model, null, 2));
+    PostRequest(uploadAttachmentBase64Api, model).then((res) => {
       if (res === 0) {
-        console.log('error', 'res err');
+        console.log("error", "res err");
       } else {
-        console.log(JSON.stringify(res, null, 2), 'file upload successfully');
+        console.log(JSON.stringify(res, null, 2), "file upload successfully");
       }
     });
   };
 
-  const download = async item => {
+  const download = async (item) => {
     // console.log(saveFile);
 
     // let extension = item.split('.').pop();
@@ -338,8 +334,8 @@ const BOQGreyStructure = ({navigation,route}) => {
     //Define path to store file along with the extension
     const path = `${RNFS.DocumentDirectoryPath}/${saveFile}.pdf`;
     const headers = {
-      Accept: 'application/pdf',
-      'Content-Type': 'application/pdf',
+      Accept: "application/pdf",
+      "Content-Type": "application/pdf",
       Authorization: `Bearer [token]`,
     };
     let filePath = `file:///${saveFile}`;
@@ -354,17 +350,17 @@ const BOQGreyStructure = ({navigation,route}) => {
       toFile: path,
     });
     // console.log(response, '-------------------------------');
-    return response.promise.then(async res => {
+    return response.promise.then(async (res) => {
       //Transform response
       if (res && res.statusCode === 200 && res.bytesWritten > 0 && res.path) {
       } else {
-        console.log('ds');
+        console.log("ds");
       }
     });
   };
 
   const formatNumberWithCommas = (number) => {
-    return number.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',');
+    return number.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
   };
   const formattedTotalAmount = formatNumberWithCommas(totalAmount);
 
@@ -372,15 +368,13 @@ const BOQGreyStructure = ({navigation,route}) => {
   const renderHeader = () => {
     return (
       <View style={styles.header}>
-        <TouchableOpacity
-          onPress={() => navigation.goBack()}
-        >
+        <TouchableOpacity onPress={() => navigation.goBack()}>
           <Icons name="arrowleft" size={30} color="#fff" />
         </TouchableOpacity>
         <AppText
-          marginLeft={'5%'}
+          marginLeft={"5%"}
           size={20}
-          title={'Cost Estimator'}
+          title={"Cost Estimator"}
           color="#fff"
         />
       </View>
@@ -390,7 +384,7 @@ const BOQGreyStructure = ({navigation,route}) => {
     return (
       <>
         <View style={styles.boqHeader}>
-          <AppText size={22} bold title={'Boq (GREY STRUCTURE)'} />
+          <AppText size={22} bold title={"Boq (GREY STRUCTURE)"} />
         </View>
         <AppText
           size={16}
@@ -401,7 +395,7 @@ const BOQGreyStructure = ({navigation,route}) => {
         />
         <View style={styles.totalEstimate}>
           <AppText
-            title={'Total Estimate'}
+            title={"Total Estimate"}
             color={Colors.lightblack}
             size={16}
           />
@@ -411,26 +405,25 @@ const BOQGreyStructure = ({navigation,route}) => {
     );
   };
 
-
   return (
-    <View style={{flex: 1, backgroundColor: '#fff'}}>
+    <View style={{ flex: 1, backgroundColor: "#fff" }}>
       <StatusBar hidden />
       {renderHeader()}
 
-      <View style={{marginTop: 10, paddingBottom: 85}}>
+      <View style={{ marginTop: 10, paddingBottom: 85 }}>
         <ScrollView>
           {renderBoqTopHeader()}
           {boqData.map((data, index) => {
             return (
               <View style={styles.boqData} key={index}>
                 <Grid>
-                  <Col style={{width: '45%'}}>
+                  <Col style={{ width: "45%" }}>
                     <Row
                       style={{
                         borderWidth: 1,
-                        borderColor: '#ddd',
-                        justifyContent: 'center',
-                        alignContent: 'center',
+                        borderColor: "#ddd",
+                        justifyContent: "center",
+                        alignContent: "center",
                       }}
                     >
                       <AppText
@@ -446,9 +439,9 @@ const BOQGreyStructure = ({navigation,route}) => {
                     <Row
                       style={{
                         borderWidth: 1,
-                        borderColor: '#ddd',
-                        justifyContent: 'center',
-                        alignItems: 'center',
+                        borderColor: "#ddd",
+                        justifyContent: "center",
+                        alignItems: "center",
                       }}
                     >
                       <AppText
@@ -464,7 +457,7 @@ const BOQGreyStructure = ({navigation,route}) => {
           })}
           <AppText
             size={20}
-            title={'Grey Structure BOQ Summary'}
+            title={"Grey Structure BOQ Summary"}
             marginHorizontal={25}
             paddingVertical={25}
             borderBottomWidth={1}
@@ -472,36 +465,45 @@ const BOQGreyStructure = ({navigation,route}) => {
           />
 
           <Grid>
-            <Col style={{width: '30%'}}>
-              <Text style={{left: 10}}>Material</Text>
+            <Col style={{ width: "30%" }}>
+              <Text style={{ left: 10, fontWeight: "bold", color: "black" }}>
+                Material
+              </Text>
             </Col>
-            <Col style={{width: '20%'}}>
-              <Text style={{left: 4}}>Quality</Text>
+            <Col style={{ width: "20%" }}>
+              <Text style={{ left: 4, fontWeight: "bold", color: "black" }}>
+                Quality
+              </Text>
             </Col>
-            <Col style={{width: '20%'}}>
-              <Text style={{right: 4}}>Quantity</Text>
+            <Col style={{ width: "20%" }}>
+              <Text style={{ right: 4, fontWeight: "bold", color: "black" }}>
+                Quantity
+              </Text>
             </Col>
-            <Col style={{width: '20%'}}>
-              <Text style={{}}>Unit</Text>
+            <Col style={{ width: "20%" }}>
+              <Text style={{ fontWeight: "bold", color: "black" }}>Unit</Text>
             </Col>
-            <Col style={{width: '20%'}}>
-              <Text style={{right: 31}}>Amount (Rs)</Text>
-            </Col>  
+            <Col style={{ width: "20%" }}>
+              <Text style={{ right: 31, fontWeight: "bold", color: "black" }}>
+                Amount (Rs)
+              </Text>
+            </Col>
           </Grid>
           {constructionData &&
             constructionData.map((item, i) => {
               return (
                 <View style={styles.boqData} key={i}>
                   <Grid>
-                    <Col style={{width: '30%'}}>
+                    <Col style={{ width: "30%" }}>
                       <Row
                         style={{
                           borderWidth: 1,
-                          borderColor: '#ddd',
-                          alignItems: 'center',
+                          borderColor: "#ddd",
+                          alignItems: "center",
                         }}
                       >
                         <AppText
+                          fontWeight={"bold"}
                           title={item.rawMaterial}
                           textAlign="left"
                           //   width="78%"
@@ -510,17 +512,17 @@ const BOQGreyStructure = ({navigation,route}) => {
                       </Row>
                     </Col>
                     {/* <View style={{width: '95%'}}> */}
-                    <Col style={{width: '20%'}}>
+                    <Col style={{ width: "20%" }}>
                       <Row
                         style={{
                           borderWidth: 1,
-                          borderColor: '#ddd',
-                          justifyContent: 'flex-start',
-                          alignContent: 'flex-start',
-                          alignItems: 'center',
+                          borderColor: "#ddd",
+                          justifyContent: "flex-start",
+                          alignContent: "flex-start",
+                          alignItems: "center",
                         }}
                       >
-                        <View style={{flexDirection: 'row'}}>
+                        <View style={{ flexDirection: "row" }}>
                           <AppText
                             title={`${item.rawMaterialQuality}`}
                             textAlign="left"
@@ -531,20 +533,20 @@ const BOQGreyStructure = ({navigation,route}) => {
                       </Row>
                     </Col>
 
-                    <Col style={{width: '16%'}}>
+                    <Col style={{ width: "16%" }}>
                       <Row
                         style={{
                           borderWidth: 1,
-                          borderColor: '#ddd',
-                          justifyContent: 'flex-start',
-                          alignContent: 'center',
-                          alignItems: 'center',
+                          borderColor: "#ddd",
+                          justifyContent: "flex-start",
+                          alignContent: "center",
+                          alignItems: "center",
                           // width:'56%'
                         }}
                       >
-                        <View style={{justifyContent: 'center', margin: 2}}>
+                        <View style={{ justifyContent: "center", margin: 2 }}>
                           <AppText
-                            title={`${item.quantity ? '****': item.quantity} `}
+                            title={`${item.quantity ? "****" : item.quantity} `}
                             // title={`${item.quantity} `}
                             textAlign="left"
                             fontSize={13}
@@ -553,18 +555,18 @@ const BOQGreyStructure = ({navigation,route}) => {
                       </Row>
                     </Col>
 
-                    <Col style={{width: '18%'}}>
+                    <Col style={{ width: "18%" }}>
                       <Row
                         style={{
                           borderWidth: 1,
-                          borderColor: '#ddd',
-                          justifyContent: 'flex-start',
-                          alignContent: 'center',
-                          alignItems: 'center',
+                          borderColor: "#ddd",
+                          justifyContent: "flex-start",
+                          alignContent: "center",
+                          alignItems: "center",
                         }}
                       >
                         <AppText
-                          title={`${item.rate ? '****' :item.rate}  `}
+                          title={`${item.rate ? "****" : item.rate}  `}
                           // title={`${item.rate}`}
                           textAlign="left"
                           fontSize={13}
@@ -572,14 +574,14 @@ const BOQGreyStructure = ({navigation,route}) => {
                       </Row>
                     </Col>
 
-                    <Col style={{width: '18%'}}>
+                    <Col style={{ width: "18%" }}>
                       <Row
                         style={{
                           borderWidth: 1,
-                          borderColor: '#ddd',
-                          justifyContent: 'flex-start',
-                          alignContent: 'center',
-                          alignItems: 'center',
+                          borderColor: "#ddd",
+                          justifyContent: "flex-start",
+                          alignContent: "center",
+                          alignItems: "center",
                         }}
                       >
                         <AppText
@@ -597,14 +599,14 @@ const BOQGreyStructure = ({navigation,route}) => {
 
           <AppText
             size={18}
-            title={'Floor Plans'}
+            title={"Floor Plans"}
             marginHorizontal={20}
             paddingVertical={25}
             borderBottomWidth={1}
             borderBottomColor={Colors.lightGrey}
           />
-            {modalData !== null && (
-            <View style={{flex: 1, marginHorizontal: 1}}>
+          {modalData !== null && (
+            <View style={{ flex: 1, marginHorizontal: 1 }}>
               <Pdf
                 trustAllCerts={false}
                 source={soursce}
@@ -614,137 +616,136 @@ const BOQGreyStructure = ({navigation,route}) => {
                 onPageChanged={(page, numberOfPages) => {
                   console.log(`Current page: ${page}`);
                 }}
-                onError={error => {
+                onError={(error) => {
                   console.log(error);
                 }}
-                onPressLink={uri => {
+                onPressLink={(uri) => {
                   console.log(`Link pressed: ${uri}`);
                 }}
                 style={styles.pdf}
               />
             </View>
-          )}  
+          )}
 
+          <View>
+            <AppText
+              size={18}
+              title={"Elevation"}
+              marginHorizontal={25}
+              paddingVertical={20}
+              borderBottomWidth={1}
+              marginTop={-5}
+              borderBottomColor={Colors.lightGrey}
+            />
             <View>
-                    <AppText
-                        size={18}
-                        title={"Elevation"}
-                        marginHorizontal={25}
-                        paddingVertical={20}
-                        borderBottomWidth={1}
-                        marginTop={-5}
-                        borderBottomColor={Colors.lightGrey}
+              <Image
+                source={{ uri: `${imgUrl}${image}` }}
+                style={styles.ElevationImg}
+              />
+            </View>
+          </View>
 
-                    />
-                    <View>
-                    <Image source={{uri:`${imgUrl}${image}`}} style={styles.ElevationImg} />
-                    </View>                    
-              </View> 
+          <View>
+            <AppText
+              size={18}
+              title={"DISCLAIMER/IMPORTANT NOTES BELOW CONSTRUCTION SUMMARY"}
+              marginHorizontal={25}
+              paddingVertical={20}
+              borderBottomWidth={1}
+              marginTop={-5}
+              borderBottomColor={Colors.lightGrey}
+            />
 
-              <View>
-                    <AppText
-                        size={18}
-                        title={"DISCLAIMER/IMPORTANT NOTES BELOW CONSTRUCTION SUMMARY"}
-                        marginHorizontal={25}
-                        paddingVertical={20}
-                        borderBottomWidth={1}
-                        marginTop={-5}
-                        borderBottomColor={Colors.lightGrey}
-
-                    />
-                    
-                    <View style={{margin:18}}>
-                    <Text style={{fontSize:15, color:'#000', marginBottom:5}}>Important Notes:</Text>
-                    {notes.map((note,index)=>(
-                        <Text style={{marginBottom:4}}>{index+1}- {note.notes}</Text>
-                      ))}
-                    </View>                    
-              </View> 
-
-      
+            <View style={{ margin: 18 }}>
+              <Text style={{ fontSize: 15, color: "#000", marginBottom: 5 }}>
+                Important Notes:
+              </Text>
+              {notes.map((note, index) => (
+                <Text style={{ marginBottom: 4 }}>
+                  {index + 1}- {note.notes}
+                </Text>
+              ))}
+            </View>
+          </View>
 
           <View style={styles.socailButtonContainer}>
-          <AppSubmitButton
-            // width="60%"
-            name={'Continue To Finishing'}
-            alignSelf="center"
-            textAlign="center"
-            onPress={() => navigation.navigate('selectFinishingMaterial',{
-              image:image,
-            file: saveFile,
-            invoiceData : boqData,
-            structureData : constructionData,
-            floorPlanId: floorPlanData.floorPlanId,
-            totalAmount:{totalAmount}
-            })}
-          />
+            <AppSubmitButton
+              // width="60%"
+              name={"Continue To Finishing"}
+              alignSelf="center"
+              textAlign="center"
+              onPress={() =>
+                navigation.navigate("selectFinishingMaterial", {
+                  image: image,
+                  file: saveFile,
+                  invoiceData: boqData,
+                  structureData: constructionData,
+                  floorPlanId: floorPlanData.floorPlanId,
+                  totalAmount: { totalAmount },
+                })
+              }
+            />
 
-          
             <TouchableOpacity
               onPress={myCustomShare}
               style={{
                 height: 50,
-                width: '34%',
+                width: "34%",
                 borderRadius: 15,
-                alignItems: 'center',
-                justifyContent: 'center',
-                flexDirection: 'row',
-                justifyContent: 'space-around',
+                alignItems: "center",
+                justifyContent: "center",
+                flexDirection: "row",
+                justifyContent: "space-around",
                 paddingHorizontal: 8,
                 marginHorizontal: 10,
-                backgroundColor: '#E5EAEE',
+                backgroundColor: "#E5EAEE",
                 borderWidth: 1,
-                borderColor: '#E5EAEE',
+                borderColor: "#E5EAEE",
               }}
             >
               <Icons name="sharealt" size={20} color="#000" />
-              <AppText title={'SHARE'} />
+              <AppText title={"SHARE"} />
             </TouchableOpacity>
           </View>
           <TouchableOpacity
-              onPress={() => {
-                // download("ds")
-                if (authData.isLogin) {
-                  setShowSaveProjectModal(true);
-                } else {
-                  setShowLoginModal(true);
-                }
-              }}
-              style={{
-                height: 50,
-                width: '90%',
-                borderRadius: 15,
-                alignItems: 'center',
-                justifyContent: 'center',
-                flexDirection: 'row',
-                paddingHorizontal: 20,
-                marginHorizontal: 10,
-                backgroundColor: Colors.lightYello,
-              }}
-            >
-              <AppText title={'Download and Exit'} color={'#000'} />
-            </TouchableOpacity>
+            onPress={() => {
+              // download("ds")
+              if (authData.isLogin) {
+                setShowSaveProjectModal(true);
+              } else {
+                setShowLoginModal(true);
+              }
+            }}
+            style={{
+              height: 50,
+              width: "90%",
+              borderRadius: 15,
+              alignItems: "center",
+              justifyContent: "center",
+              flexDirection: "row",
+              paddingHorizontal: 20,
+              marginHorizontal: 10,
+              backgroundColor: Colors.lightYello,
+            }}
+          >
+            <AppText title={"Download and Exit"} color={"#000"} />
+          </TouchableOpacity>
         </ScrollView>
       </View>
 
-      
+      <ModalCostSave
+        visible={showSaveProjectModal}
+        onCancelPress={() => setShowSaveProjectModal(false)}
+        onPressOk={async (projectName) => {
+          const costEstimate = await SaveCostEstimate(projectName);
+          setShowSaveProjectModal(false);
 
-
-
-                <ModalCostSave
-                  visible={showSaveProjectModal}
-                  onCancelPress={() => setShowSaveProjectModal(false)}
-                  onPressOk={async projectName => {
-            
-                    const costEstimate = await SaveCostEstimate(projectName);
-                    setShowSaveProjectModal(false);
-
-                    navigation.navigate('InvoiceScreen', {
-                      costId: costEstimate.id,
-                      image: image,
-                    });
-                  }}
-                />
+          navigation.navigate("InvoiceScreen", {
+            costId: costEstimate.id,
+            image: image,
+          });
+        }}
+      />
 
       <ModalSignIn
         visible={showLoginModal}
@@ -777,13 +778,13 @@ const BOQGreyStructure = ({navigation,route}) => {
 };
 
 export default BOQGreyStructure;
-const {height, width} = Dimensions.get('window');
+const { height, width } = Dimensions.get("window");
 
 const styles = StyleSheet.create({
   header: {
     height: 75,
-    flexDirection: 'row',
-    alignItems: 'center',
+    flexDirection: "row",
+    alignItems: "center",
     backgroundColor: Colors.lightYello,
     paddingHorizontal: 40,
   },
@@ -793,9 +794,9 @@ const styles = StyleSheet.create({
     padding: 10,
   },
   bottom_logo: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    justifyContent: 'center',
+    flexDirection: "row",
+    alignItems: "center",
+    justifyContent: "center",
   },
   logo: {
     width: 120,
@@ -805,49 +806,48 @@ const styles = StyleSheet.create({
   modalbg: {
     height: height / 1.4,
     width: width / 1.1,
-    alignSelf: 'center',
+    alignSelf: "center",
     marginTop: 20,
-    overflow: 'scroll',
+    overflow: "scroll",
   },
   socailButtonContainer: {
     marginVertical: 20,
-    flexDirection: 'row',
-    justifyContent: 'space-between',
-    alignItems: 'center',
-    width: '68%',
+    flexDirection: "row",
+    justifyContent: "space-between",
+    alignItems: "center",
+    width: "68%",
   },
   boqHeader: {
-    alignSelf: 'center',
+    alignSelf: "center",
     margin: 15,
   },
   totalEstimate: {
-    flexDirection: 'row',
-    justifyContent: 'space-between',
+    flexDirection: "row",
+    justifyContent: "space-between",
     paddingVertical: 10,
     marginHorizontal: 25,
     marginTop: 15,
     marginBottom: 20,
   },
   boqData: {
-    flexDirection: 'row',
-    justifyContent: 'space-between',
+    flexDirection: "row",
+    justifyContent: "space-between",
     padding: 5,
     marginHorizontal: 5,
   },
   pdf: {
-    backgroundColor: '#fff',
+    backgroundColor: "#fff",
     flex: 1,
     // width: Dimensions.get('window').width,
-    height: Dimensions.get('window').height / 2.5,
+    height: Dimensions.get("window").height / 2.5,
   },
-  ElevationImg:{
-    backgroundColor: '#fff',
+  ElevationImg: {
+    backgroundColor: "#fff",
     flex: 1,
     // width: Dimensions.get('window').width,
-    height: Dimensions.get('window').height / 2.5,
-    marginHorizontal:12
-  }
-  
+    height: Dimensions.get("window").height / 2.5,
+    marginHorizontal: 12,
+  },
 });
 /////file style
 
