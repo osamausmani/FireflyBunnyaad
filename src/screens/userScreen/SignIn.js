@@ -466,7 +466,7 @@ const SignIn = ({ navigation }) => {
           }}
           activeOpacity={1}
           onPress={() => {
-            navigation.replace("WebView", {
+            navigation.navigate("WebView", {
               webURL: "https://bunnyaad.com",
             });
           }}
@@ -525,7 +525,7 @@ const SignIn = ({ navigation }) => {
             isYellow={true}
             name={"Login"}
             onPress={() => {
-              navigation.replace("WebView", {
+              navigation.navigate("WebView", {
                 webURL: "https://bunnyaad.com//web/login",
               });
             }}
@@ -533,7 +533,7 @@ const SignIn = ({ navigation }) => {
 
           <TouchableOpacity
             onPress={() => {
-              navigation.replace("WebView", {
+              navigation.navigate("WebView", {
                 webURL: "https://bunnyaad.com/web/signup",
               });
             }}
